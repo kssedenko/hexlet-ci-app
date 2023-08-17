@@ -9,3 +9,4 @@ jobs:
       - run: npm install
       # Запускаем линтер
       - run: npm run lint
+      - run: 
