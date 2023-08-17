@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3
-      - run: npm install
-      # Запускаем линтер
+     # - run: npm install 
+      - run: make setup
       - run: npm run lint
-      - run: 
+      - run: make start
