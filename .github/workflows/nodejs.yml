@@ -26,5 +26,5 @@ jobs:
       - run: npm run lint
       - run: make setup
       - run: make start
-      - run: make start
+      - run: make test
       
